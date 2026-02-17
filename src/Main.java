@@ -10,7 +10,7 @@ public class Main {
 
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Enter party affiliation ([D]emocrat, [R]epublic, [I]ndependent): ");
+        System.out.print("Enter party affiliation ([D]emocrat, [R]epublican, [I]ndependent): ");
         String choice = in.nextLine();
 
         if (choice.equalsIgnoreCase("D")) {
